@@ -72,7 +72,7 @@ with open(token_file, 'r') as f:
     access_tokens = f.read().splitlines()
 
 # Prompt for the number of user IDs
-num_user_ids = int(input("\033[1;32m ➜ "))
+num_user_ids = int(input("\033[1;32m ➜ KITNE POST ME TOOL LAGANA HA WO NUMBER DALO"))
 print('\x1b[1;32m<<━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━>>')
 
 # Define the user IDs and message files
